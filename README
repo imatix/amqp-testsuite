@@ -1,0 +1,5 @@
+This is a snapshot of the old testsuite made for AMQP/0.6.  
+What's interesting here is the language (PAL) that we developed
+specifically for this purpose.  The PAL compiler in OpenAMQ is 
+in fact generated from the AMQP XML specs.  These tests do not
+run since they use old method names and arguments in many places.
